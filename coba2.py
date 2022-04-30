@@ -46,4 +46,4 @@ print(
 
 print('\nClassification Report\n')
 print(classification_report(y_test, y_pred,
-                            target_names=['Rendah', 'Sangat Tinggi', 'Sedang', 'Tinggi']))
+                            target_names=['kelas target']))
